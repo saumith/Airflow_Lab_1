@@ -33,7 +33,7 @@ docker compose up airflow-init
 docker compose up
 ```
 
-Visit `http://localhost:8080` → Login: `admin/admin` (default)
+Visit `http://localhost:8080` → Login: `airflow/airflow` (default)
 
 ### Trigger DAG
 1. Go to DAGs section
@@ -103,7 +103,7 @@ Airflow_Lab_1/
 ## Airflow Execution
 
 ### DAG Graph
-![DAG Graph](./airflow_dag_graph.png)
+![DAG Graph](./Users/saumithdeversetty/Downloads/MLOPS)
 
 All tasks execute successfully in sequence.
 
