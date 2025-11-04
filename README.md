@@ -108,7 +108,7 @@ Airflow_Lab_1/
 All tasks execute successfully in sequence.
 
 ### Task Instances
-![Task Instances](./airflow_task_instances.png)
+![Task Instances](./assets/Screenshot 2025-11-03 at 9.20.33 PM.png)
 
 Detailed execution metrics for each task.
 
