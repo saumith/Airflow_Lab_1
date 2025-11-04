@@ -54,6 +54,27 @@ pip install -r requirements.txt
 python src/lab.py
 ```
 
+## Dataset
+
+**Adult Income Dataset** - Binary classification dataset predicting income levels
+
+- **Source:** UCI Machine Learning Repository
+- **Training data:** `data/file.csv` (36,177 samples)
+- **Test data:** `data/test.csv` 
+- **Features:** 9 attributes (age, education, occupation, etc.)
+- **Target:** Binary classification (0: ≤$50K, 1: >$50K)
+
+### Download Data
+
+The dataset is automatically included in the repository. If you need to regenerate it:
+
+```bash
+# Run the data preparation script
+python adult_income_data.py
+```
+
+This creates/updates the CSV files in the `data/` directory.
+
 ## Project Structure
 
 ```
