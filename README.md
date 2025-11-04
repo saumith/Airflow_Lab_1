@@ -103,12 +103,12 @@ Airflow_Lab_1/
 ## Airflow Execution
 
 ### DAG Graph
-![DAG Graph](.assets/airflow_dag_graph.png)
+![DAG Graph](./assets/airflow_dag_graph.png)
 
 All tasks execute successfully in sequence.
 
 ### Task Instances
-![Task Instances](.assets/airflow_task_instances.png.png)
+![Task Instances](./assets/airflow_task_instances.png.png)
 
 Detailed execution metrics for each task.
 
